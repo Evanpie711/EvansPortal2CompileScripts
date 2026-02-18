@@ -1,6 +1,7 @@
 This is a basic script for compiling maps on linux with wine and native hammer addons
 
 **Setup**
+
 Have wine installed, make sure you are on the newest vestion.
 
 1. place the script into your portal 2 root
