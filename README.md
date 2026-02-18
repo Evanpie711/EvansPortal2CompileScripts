@@ -1,6 +1,8 @@
 This is a basic script for compiling maps on linux with wine and native hammer addons
 
 **Setup**
+Have wine installed, make sure you are on the newest vestion.
+
 1. place the script into your portal 2 root
 2. open up the script with whatever text editor you like
 3. set the P2PATH varible at the top to the path of your portal 2 install
