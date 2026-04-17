@@ -1,4 +1,4 @@
-This is a basic script for compiling maps on linux with wine and native hammer addons
+This is a basic script for compiling maps on linux with wine and native hammer addons or fully native with p2ce
 
 **Setup**
 
