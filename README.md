@@ -1,4 +1,4 @@
-This is a basic script for compiling maps on linux with wine and native hammer addons or fully native with p2ce
+This is a basic script for compiling maps(and assets now, see at bottom of here) on linux with wine and native hammer addons or fully native with p2ce
 
 **Setup**
 
@@ -38,3 +38,11 @@ Most compiles you will use -a or -o. -a uses all compile steps and -o uses all c
 * -c  copy bsp
 * -a  all (-vrpbc)
 * -o  all without postcompiler (-vrbc)
+
+**mdlsrc_compile.sh**
+This compiles all models in a mdlsrc directory. I made this mainly becuse SourceOps does not compile models on linux.
+
+To setup place in the root of your p2ce game, then set the gamepath to your current game and the root directory of p2ce.
+Currently native studio mdl is broken so you have to keep USEWINE to 1 until that is fixed :P
+
+I also plan to add a system so it will only compile a model if the mdl is missing or behind the modfication date of the qc
