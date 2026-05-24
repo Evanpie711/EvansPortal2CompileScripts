@@ -165,8 +165,11 @@ fi
 
 
 
+MAPNAMEARRAY=()
+IFS='/' read -ra MAPNAMEARRAY <<< "${MAPNAME}"
+
 if [ $USECOPY -eq 1 ]; then
-COPYCOMMAND=(cp "${MAPPATH}.bsp" "${P2PATH}${FINALMAPPATH}maps/${MAPNAME}.bsp")
+COPYCOMMAND=(cp "${MAPPATH}.bsp" "${P2PATH}${FINALMAPPATH}maps/${MAPNAMEARRAY[-1]}.bsp")
 echo -e "\e[32m---------------------------------------------------------------------"
 echo "copy file"
 echo "${COPYCOMMAND[*]}"
