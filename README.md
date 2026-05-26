@@ -40,6 +40,7 @@ Most compiles you will use -a or -o. -a uses all compile steps and -o uses all c
 * -o  all without postcompiler (-vrbc)
 
 **mdlsrc_compile.sh**
+
 This compiles all models in a mdlsrc directory. I made this mainly becuse SourceOps does not compile models on linux.
 
 To setup place in the root of your p2ce game, then set the gamepath to your current game and the root directory of p2ce.
